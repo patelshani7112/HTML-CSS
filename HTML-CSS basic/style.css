@@ -1,35 +1,41 @@
+* {
+  font-family: sans-serif;
+}
+
 h1 {
   font-size: 26px;
-  font-family: sans-serif;
   text-transform: capitalize;
   font-style: italic;
 }
 
 h2 {
-  font-family: sans-serif;
   font-size: 36px;
 }
 
 h3 {
-  font-family: sans-serif;
   font-size: 30px;
 }
 
 h4 {
   font-size: 20px;
-  font-family: sans-serif;
   line-height: 1.5;
   text-transform: uppercase;
   text-align: center;
 }
 
 p {
-  font-family: sans-serif;
   font-size: 22px;
   line-height: 1.5;
 }
 
 li {
   font-size: 20px;
-  font-family: sans-serif;
+}
+
+footer p {
+  font-size: 16px;
+}
+
+article header p {
+  font-style: italic;
 }

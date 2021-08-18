@@ -39,3 +39,7 @@ footer p {
 article header p {
   font-style: italic;
 }
+
+ul {
+  list-style: none;
+}

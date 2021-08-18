@@ -2,6 +2,21 @@
   font-family: sans-serif;
 }
 
+h1,
+h2,
+h3,
+h4,
+li,
+p {
+  color: #444;
+}
+
+h1,
+h2,
+h3 {
+  color: #1098ab;
+}
+
 h1 {
   font-size: 26px;
   text-transform: capitalize;
@@ -42,4 +57,12 @@ article header p {
 
 ul {
   list-style: none;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+}
+
+aside {
+  border: 5px solid #1098ab;
 }

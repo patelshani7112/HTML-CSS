@@ -66,3 +66,16 @@ ul {
 aside {
   border: 5px solid #1098ab;
 }
+
+ol li:last-child {
+  font-weight: bold;
+}
+
+li:nth-child(2) {
+  color: red;
+  font-weight: bold;
+}
+
+article header p:first-child {
+  color: green;
+}

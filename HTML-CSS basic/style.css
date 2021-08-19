@@ -1,14 +1,25 @@
 * {
-  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-h1,
-h2,
-h3,
-h4,
-li,
-p {
+body {
+  font-family: sans-serif;
   color: #444;
+}
+
+.container {
+  width: 700px;
+  margin: auto;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+
+aside {
+  border: 5px solid #1098ab;
 }
 
 h1,
@@ -59,14 +70,6 @@ ul {
   list-style: none;
 }
 
-.main-header {
-  background-color: #f7f7f7;
-}
-
-aside {
-  border: 5px solid #1098ab;
-}
-
 ol li:last-child {
   font-weight: bold;
 }
@@ -78,4 +81,41 @@ li:nth-child(2) {
 
 article header p:first-child {
   color: green;
+}
+
+a:link {
+  color: red;
+  text-decoration: none;
+}
+
+a:visited {
+  color: red;
+  font-weight: bold;
+}
+
+a:hover {
+  color: green;
+  text-decoration: 5px solid underline blue;
+}
+
+a:active {
+  background-color: black;
+}
+
+.clickHere {
+  text-decoration: underline;
+}
+
+.clickHere:hover {
+  text-decoration: none;
+}
+
+button {
+  background-color: black;
+  color: rgb(173, 166, 166);
+}
+
+button:hover {
+  background-color: white;
+  color: red;
 }

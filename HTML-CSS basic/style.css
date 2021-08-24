@@ -137,10 +137,6 @@ li:last-child {
   margin-left: 0;
 }
 
-body {
-  /* background-color: orangered; */
-}
-
 /* .first-li {
   font-weight: bold;
 } */
@@ -151,10 +147,6 @@ li:first-child {
 
 li:last-child {
   font-style: italic;
-}
-
-li:nth-child(even) {
-  /* color: red; */
 }
 
 /* Misconception: this won't work! */
@@ -198,7 +190,6 @@ nav a:link {
   display: block; */
 
   margin-right: 30px;
-  margin-top: 10px;
   display: inline-block;
 }
 
@@ -223,9 +214,9 @@ h1::first-letter {
   margin-right: 5px;
 }
 
-h3 + p::first-line {
-  /* color: red; */
-}
+/* h3 + p::first-line {
+
+} */
 
 h2 {
   /* background-color: orange; */
@@ -267,7 +258,7 @@ nav p {
   font-size: 18px;
 } */
 
-.author-img {
+/* .author-img {
   float: left;
   margin: 10px;
   margin-bottom: 20px;
@@ -286,9 +277,9 @@ header nav {
   float: right;
 }
 
-/* .clear {
+ .clear {
   clear: both;
-} */
+} 
 
 .clearfix::after {
   content: "";
@@ -308,4 +299,51 @@ aside {
 
 footer {
   clear: both;
+} */
+
+/* flexBox*/
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.author-box {
+  display: flex;
+  align-items: center;
+}
+
+.author {
+  margin-bottom: 0px;
+  margin-left: 10px;
+}
+
+.related-post {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.related-author {
+  margin-bottom: 0px;
+  font-size: 14px;
+  font-weight: normal;
+}
+.related-link:link {
+  margin-bottom: 5px;
+  display: block;
+}
+
+.row {
+  display: flex;
+  gap: 70px;
+}
+
+article {
+  flex: 0 0 800px;
+}
+
+aside {
+  flex: 0 0 300px;
 }

@@ -24,6 +24,12 @@ body {
   padding: 15px;
 }
 
+.product-price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 /* PRODUCT INFORMATION */
 .price {
   font-size: 24px;
@@ -66,12 +72,15 @@ body {
   text-decoration: none;
 }
 
+.colors-item {
+  display: flex;
+  gap: 10px;
+}
+
 .color {
   background-color: #000;
   height: 22px;
   width: 22px;
-  display: inline-block;
-  margin-right: 10px;
 }
 
 .color-blue {
@@ -123,4 +132,18 @@ body {
 .add-cart:hover {
   color: #000;
   background-color: #fff;
+}
+
+.container {
+  display: flex;
+  gap: 40px;
+}
+
+.pp01 {
+  flex: 1;
+  margin-top: 20px;
+}
+
+.pp02 {
+  flex: 1;
 }
